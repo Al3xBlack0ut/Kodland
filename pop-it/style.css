@@ -1,0 +1,165 @@
+body {
+  font-family: sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fc2e20;
+  padding: 2% 5%;
+  font-weight: bold;
+}
+
+.header-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-nav ul li {
+  display: inline;
+  margin-left: 45px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.header-nav a:hover {
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  padding: 2% 5%;
+  font-weight: bold;
+  color: white;
+  clear: both;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-weight: lighter;
+}
+
+footer a:hover {
+  color: #fc2e20;
+}
+
+#buy {
+  background-color: #9cfc50;
+  padding: 1% 5%;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+#buy:hover {
+  background-color: #fe7f20;
+  color: white;
+}
+
+#ban h1 {
+  font-size: 400%;
+  font-weight: 1000;
+}
+
+#ban {
+  padding: 25% 5% 10% 5%;
+  background-color: #fc2e20;
+  color: white;
+  background-image: url("background2.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+#ban .desc {
+  width: 25%;
+}
+
+#what {
+  padding: 5% 15%;
+  text-align: center;
+}
+#what h1 {
+  margin-bottom: 1%;
+}
+#choose {
+  background-color: #9cfc50;
+  padding: 5%;
+  text-align: center;
+}
+
+#choose h1 {
+  margin-bottom: 1%;
+}
+
+#popits img {
+  height: 100px;
+}
+
+#popits {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#popits > div {
+  margin: 10px;
+  text-align: center;
+}
+#popits > div > p {
+  margin: 7%;
+}
+.buy {
+  background-color: #fe7f20;
+  padding: 5% 20%;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.buy:hover {
+  background-color: #fc2e20;
+  color: white;
+}
+
+#rules {
+  padding: 5% 5% 30% 5%;
+  background-image: url("bg-grid2.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#rules .left {
+  width: 55%;
+  float: left;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+#rules .right {
+  width: 30%;
+  float: left;
+}
+
+#rules .right img {
+  height: 200px;
+}
